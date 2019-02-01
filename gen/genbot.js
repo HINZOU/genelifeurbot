@@ -9,7 +9,7 @@ let id = message.content.split(' ').slice(1,2).join(' ');
   let dMsg = message.content.split(' ').slice(2).join(' ');
 
 if(!cmd||cmd==='1'){ 
-	return message.reply("**[** `Access Denied` **] .gen spotify ||| .gen uplay ||| .gen origin**");
+	return message.reply("**[** `Access Denied` **] .gen spotify | .gen uplay | .gen origin**");
 	
 }
 	if(!cmd||cmd==='spotify'){
